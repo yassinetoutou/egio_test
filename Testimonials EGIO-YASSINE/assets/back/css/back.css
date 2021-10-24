@@ -1,0 +1,207 @@
+html{
+    background-color: #f0f0f1;
+}
+
+body{
+    background-color: #f0f0f1;
+}
+
+#wpwrap{
+    background-color: #f0f0f1;
+}
+
+/* table design */
+
+@media screen and (max-width:770) {
+  
+    
+}
+
+
+
+#dragdrop{
+    cursor: pointer;
+}
+
+#dragdrop i{
+    color: gray;
+    width: 100%;
+    height: 100%;
+}
+
+
+.testimontial_action_tab{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+   
+}
+.testimontial_action_tab>*{
+    position: relative;
+    top: 0;
+    bottom: 0;
+}
+
+#testimontials_table_length{
+    display: none;
+}
+
+.nouveau_testimontial_class{
+    position: relative;
+    margin-bottom: -20em;
+    bottom: -3.5em;
+    z-index: 1000;
+}
+
+
+
+#testimontials_table_filter input{
+    margin-bottom: 2em;
+    right: 20em;
+    width: 25em;
+}
+
+@media screen and (max-width:770px){
+    #testimontials_table_filter input{
+        margin-bottom: 2em;
+        right: 20em;
+        width: 10em;
+    }
+}
+
+table.dataTable thead th, table.dataTable thead td,table.dataTable tfoot th, table.dataTable tfoot td {
+    background-color: rgb(233, 232, 232);
+    color: rgb(100, 99, 99);
+    
+}
+
+.tbody_dt tr td{
+    border-left: 1px solid rgb(211, 211, 211);
+    border-bottom: 1px solid rgb(211, 211, 211);
+}
+
+.img_tab_testimontial img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.img_tab_testimontial{
+    height: 3em;
+    width: 4em;
+}
+
+/* admin panel box */
+
+.testimontial_box{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.testimontial_box_icon{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.accepter_testimontial i,.att_testimontial i,.rejet_testimontial i{
+    color: white;
+    padding: 20px;
+    border-radius: 50%;
+    width: 2em;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.accepter_testimontial i{
+    background-color: #20c997;
+
+
+}
+
+.att_testimontial i{
+    background-color: #ffc107;
+}
+
+.rejet_testimontial i{
+    background-color: #df4759;
+}
+
+.rejet{
+    background-color: #df4759;    
+}
+
+.accepter{
+    background-color: #20c997;
+
+
+}
+
+.att{
+    background-color: #ffc107;
+}
+
+
+
+.testimontial_box_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.testimontial_box_text{
+    color: gray;
+}
+
+/* modifie testimontial page */
+
+.modifie_image_hovered_hover{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: none;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.modifie_image_hovered{
+    position: relative;
+}
+
+.modifie_image_hovered:hover .modifie_image_hovered_hover{
+    display: inline;
+}
+
+
+/* page ajouter testimontial admin */
+
+.ajouter_testimontial_admin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.in_ajouter_testimontial_admin{
+    background-color: white;
+    height: auto;
+    width: auto;
+    width: 50%;
+}
+
+
+
