@@ -8,7 +8,7 @@
  
  https://egio_test.yassinetoutou.info/testimontials
  
- https://egio_test.yassinetoutou.info/wp-admin <br><br>
+ https://egio-test.yassinetoutou.info/wp-login.php <br><br>
  utilisateur : egio_test <br>
  pass : egio_test
  
