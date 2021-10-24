@@ -26,7 +26,7 @@
 
    <h3>  aprés l'installation </h3>
    
-   en vas crée une page automatiquement nommé ' <h2> testimontial </h2> ' tu peux accéss cette contient le cote client du cette plugin tu peux ajouter une testimontial.
+   en vas crée une page automatiquement nommé ' testimontial  '
    
 
 
